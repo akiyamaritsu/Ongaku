@@ -6,7 +6,7 @@ TARGET   = Audio_App
 SRCS     = main.cpp ongaku.cpp
 OBJS     = $(SRCS:.cpp=.o)
 
-LIBS     = -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lrtaudio -lpthread
+LIBS     = -lsfml-system -lsfml-audio -lrtaudio -lpthread
 
 all: $(TARGET)
 
